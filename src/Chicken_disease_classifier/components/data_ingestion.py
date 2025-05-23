@@ -5,7 +5,6 @@ from Chicken_disease_classifier import logger
 from Chicken_disease_classifier.utils.common import get_size
 from Chicken_disease_classifier.entity.config_entity import DataIngestionConfig
 from pathlib import Path
-import time
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
