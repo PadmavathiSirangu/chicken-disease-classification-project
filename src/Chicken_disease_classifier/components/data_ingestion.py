@@ -8,7 +8,6 @@ from pathlib import Path
 import time
 #test line
 
-
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
